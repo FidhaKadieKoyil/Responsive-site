@@ -1,0 +1,166 @@
+body {
+    background-image: url(./images/clothes-clothing-shop.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.location-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    
+   
+}
+.lcc {
+ 
+    background-color:rgba(12, 9, 9, 0.676);
+   
+    overflow: hidden;
+   
+}
+
+.location-details > div  {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    
+}
+
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.social-media-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#logo img{
+  height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+  }
+  #headernav li {
+    display: inline;
+    font-weight: bold;
+  }
+  
+  .mainhead {
+    display: inline-block;
+  }
+  #headernav {
+    clear: left;
+    margin-left: 20px;
+  }
+  
+  #logo {
+    object-fit: cover;
+    object-position: left;
+    width: 20%;
+  }
+  
+  nav {
+    background-color: #672a1d;
+  }
+  
+  nav a:hover {
+    color: white;
+  }
+  ul {
+    padding: 0%;
+    list-style: none;
+  }
+  
+  .fitem {
+    display: inline-block;
+    flex-grow: 1;
+    padding-left: 5%;
+  }
+  #copyright {
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+  }
+  
+  footer {
+    min-height: 100px;
+    font-family: "Century Gothic", serif;
+    font-size: smaller;
+    background-color: #864e42;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -22px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+  
+  
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+@media only screen and (max-width: 768px) {
+    .location-details > div .location-image img {
+        display: none;
+        
+    }
+    #headernav {
+      margin-left: unset;
+    }
+  
+    #headernav ul {
+      display: flex;
+      flex-direction: column;
+    }
+}
